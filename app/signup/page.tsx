@@ -13,7 +13,7 @@ export default function Home() {
           priority
         />
         <div className="text-3xl text-center mx-auto sm:text-left font-[family-name:var(--font-geist-mono)]">
-            <h1>Welcome to Wishful!</h1>
+            <h1>Sign Up</h1>
         </div>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
