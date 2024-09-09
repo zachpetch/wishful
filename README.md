@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project using [`Tailwind CSS`](https://tailwindcss.com/).
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+pnpm dev
+# or
 npm run dev
 # or
 yarn dev
 # or
-pnpm dev
-# or
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then visit [http://localhost:3033](http://localhost:3033) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Wishful
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a wishful group with your friends, family, colleagues, or anyone.
 
-## Learn More
+Each person has the option to fill out a short survey with information about themselves, and to add a wishlist (with links).
 
-To learn more about Next.js, take a look at the following resources:
+When someone in the group buys something from someone else's wishlist, everyone in the group _EXCEPT THE RECIPIENT_ will see that someone has purchased that item, helping to avoid unintentional duplicate gifting. The recipient will be none the wiser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The group organizer has the option of making the group a "secret-santa" group. This assigns each person in the group another member of the group to give a gift. No one (including the group organizer) can see who anyone is getting a gift for, except for themselves. The group organizer can specify if there are any people who should not be chosen for any other people, if need be.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
