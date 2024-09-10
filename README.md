@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project using [`Tailwind CSS`](https://tailwindcss.com/).
+This is a [Next.js](https://nextjs.org) project using [Tailwind CSS](https://tailwindcss.com/).
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ Then visit [http://localhost:3033](http://localhost:3033) in your browser.
 
 # Wishful
 
-Create a wishful group with your friends, family, colleagues, or anyone.
+Create a Wishful group with your friends, family, colleagues, or anyone.
 
 Each person has the option to fill out a short survey with information about themselves, and to add a wishlist (with links).
 
