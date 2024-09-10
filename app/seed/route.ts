@@ -29,10 +29,11 @@
 //     `;
 // }
 // 
-// async function setGroupUser() {
+// async function setWishlists() {
 //     await client.sql`CREATE EXTENSION IF NOT EXISTS "uuid-ossp"`;
+//     await client.sql`DROP TABLE group_wisher;`
 //     await client.sql`
-//         CREATE TABLE IF NOT EXISTS group_wisher (
+//         CREATE TABLE IF NOT EXISTS wishlists (
 //             id UUID DEFAULT uuid_generate_v4() primary key,
 //             wisher_id UUID NOT NULL,
 //             group_id UUID NOT NULL,
@@ -61,9 +62,9 @@
 // export async function GET() {
 //     try {
 //         await client.sql`BEGIN`;
-// //        await setWishers();
-// //        await setGroups();
-//         await setGroupUser();
+//         await setWishers();
+//         await setGroups();
+//         await setWishlists();
 //         await setItems();
 //         await client.sql`COMMIT`;
 // 
