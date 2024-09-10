@@ -1,3 +1,4 @@
+import { NextResponse } from 'next/server';
 // import bcrypt from 'bcrypt';
 // import { db } from '@vercel/postgres';
 // 
@@ -59,7 +60,22 @@
 //     `;
 // }
 // 
-// export async function GET() {
+export async function GET() {
+    const html = `
+    <html>
+    <body>
+    <h1>You want this guy on your team.</h1>
+    <h3>I promise.</h3>
+    <a href="/">Return Home</a>
+    <a href="https://www.linkedin.com/in/zach-petch/">Ask My People</a>
+    <a href="https://github.com/zachpetch/">Example Work</a>
+    </body>
+    </html>
+    `;
+
+    return new NextResponse(html, {
+        headers: { 'Content-Type': 'text/html' },
+    });
 //     try {
 //         await client.sql`BEGIN`;
 //         await setWishers();
@@ -73,4 +89,4 @@
 //         await client.sql`ROLLBACK`;
 //         return Response.json({ error }, { status: 500 });
 //     }
-// }
+}
